@@ -45,6 +45,16 @@
     $str = "questo è un approfondimento su PHP";
     echo strtoupper($str); //con mb_strtoupper anche la è diventerà in caps lock
 
+
+    //3.booleani
+    $isAdmin = true;
+
+    if($isAdmin === true) {
+        echo "sei autorizzato all' accesso";
+    } else {
+        echo "non sei autorizzato";
+    }
+
 ?>
 
 </body>
